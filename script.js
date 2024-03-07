@@ -50,7 +50,6 @@ buttons.forEach((button) => {
         playerSelection = button.id;
         computerSelection = getcomputerSelection();
         resultDiv.textContent = playRound(playerSelection, computerSelection);
-        //console.log(`Player ${playerScore} : ${computerScore} Computer`); // Debugging
         keepScores(5);
 
         body.appendChild(resultDiv);
